@@ -11,8 +11,8 @@ function Footer() {
        </div> 
   <div>
     <span className="footer-title">Information</span> 
-    <Link href="/about-us" className="link link-hover">About Us</Link> 
-    <Link href="/faqs" className="link link-hover">FAQs</Link> 
+    <Link href="/about" className="link link-hover">About Us</Link> 
+    {/* <Link href="/faqs" className="link link-hover">FAQs</Link> */}
   </div> 
   <div>
     <span className="footer-title">Legal</span> 
@@ -27,7 +27,7 @@ function Footer() {
   </div>
 </footer>
         </div>
-        <div className="p-4 flex justify-center bg-secondary">
+        <div className="p-4 flex justify-center bg-purple-700">
         <div className="max-w-5xl text-slate-50">
           <p>Copyright © 2024 - All right reserved</p>
         </div> 

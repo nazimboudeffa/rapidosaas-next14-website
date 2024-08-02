@@ -13,7 +13,7 @@ function GenerationStep(){
         <>
              <div className="grid place-items-center bg-slate-50 w-full ">
             <div className="max-w-6xl w-full py-24 px-4 content-center justify-center">
-                <h2 className="text-3xl  text-center font-bold">Get Website Designed in Simple Steps</h2>
+                <h2 className="text-3xl  text-center font-bold">Get your SaaS shipped in Simple Steps</h2>
                 <div className="grid mt-24 md:grid-cols-3 grid-cols-1 gap-8">
                 {
                     generationStepData.map((i, k) => {

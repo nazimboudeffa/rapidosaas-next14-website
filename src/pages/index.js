@@ -9,6 +9,7 @@ import FeatureSection from '@/components/home/FeatureSection'
 import PageMetaTags from '@/containers/PageMetaTags'
 import Pricing from '@/components/home/Pricing'
 import CTA2 from '@/components/home/CTA2'
+import Features2 from '@/components/home/Features2'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -24,13 +25,17 @@ export default function Home() {
 
         <GenerationStep />
 
+        <Features2 />
+
+        {/*
         <FeatureSection showHeading={true} title="Feature title 1"/>
 
         <FeatureSection title="Featuer title 2" leftText="1" />
 
         <FeatureSection title="Feature title 3"/>
+        */}
 
-        <Testimonials />
+        {/* <Testimonials /> */}
         
         <CTA2 />
     </>

@@ -80,7 +80,7 @@ function NavProfileLinks() {
         {
             !isLoggedIn && 
             <>
-                <button className='btn btn-sm text-xs mr-4 normal-case md:btn-ghost ' onClick={() => openLoginModal()}>Sign In</button>
+                {/* <button className='btn btn-sm text-xs mr-4 normal-case md:btn-ghost ' onClick={() => openLoginModal()}>Sign In</button> */}
                 <Link href="https://calendar.app.google/8X1TqBgcJain3tTV6"><button className='btn md:mt-0 mt-4 btn-block btn-sm text-xs btn-outline normal-case hover:text-white hover:btn-primary'>Want help ?</button></Link>
             </>
         }

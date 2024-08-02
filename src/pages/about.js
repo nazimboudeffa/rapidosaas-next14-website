@@ -6,7 +6,7 @@ export default function Page() {
       <InnerPageContainer title="About Us">
             <PageMetaTags title="About Us" description={"Meta tags"} url="/about-us"/>
             <p className="mt-8">
-            Welcome to Company Name, where innovation meets design! We are a cutting-edge company that is passionate about transforming design into a seamless, imaginative, and enjoyable experience for everyone. Our mission is to empower you with AI-driven ideas.
+            Welcome to Rapido SaaS, where innovation meets design! We are passionate about transforming design into a seamless, imaginative, and enjoyable experience for everyone. Our mission is to empower you with SaaS ideas and build it with our boilerplate.
             </p>
 
             <h3 className="mt-8 font-bold text-xl">Our Story</h3>
