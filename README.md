@@ -6,10 +6,13 @@
 
 A free landing page template using **Daisy UI** and Next JS. With the help of Dasisy UI, it comes with **fully customizable and themable CSS** and power of Tailwind CSS utility classes.
 
+## Original coder
+This is a fork, you can find the original coder at https://github.com/robbins23/daisyui-nextjs-landing-page
+
 
 ## Preview
 
-[Live preview](https://daisyui-nextjs-landing-page.vercel.app/)
+[Live preview](https://rapidosaas.com)
 
 
 ![App Screenshot](https://ik.imagekit.io/vu5t8xb15vzcx/Screenshot%202023-11-23%20at%203.51.44%20PM_tSpwQBZKWN.png?updatedAt=1700734952531)
