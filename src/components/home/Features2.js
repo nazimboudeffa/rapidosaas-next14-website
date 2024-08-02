@@ -1,7 +1,8 @@
 export default function Features2 () {
   return (
     <div className="flex flex-col items-center justify-center mb-5">
-      <h1 className="text-3xl font-bold mt-5 mb-5">Features</h1>
+      <h1 className="text-3xl font-bold mt-5 mb-5">Features you will find in our boilerplate</h1>
+      <p className="text-lg mb-5">This boilerplate is designed to help you ship your SaaS in few hours. It has the following features, some are work in progress:</p>
         <ul>
         <li>
         ✅ Responsive React components
@@ -25,7 +26,7 @@ export default function Features2 () {
         ✅ About
         </li>
         <li>
-        ❎ ToS and Conditions
+        ✅ ToS and Conditions
         </li>
         <li>
         ✅ Login with magic link NextAuth
@@ -34,13 +35,13 @@ export default function Features2 () {
         ✅ Custom signin page
         </li>
         <li>
-        ❎ Dashboard
+        ✅ Dashboard
         </li>
         <li>
         ✅ TailWind with daisyui
         </li>
         <li>
-        ❎ Darkmode
+        ✅ Darkmode
         </li>
         <li>
         ✅ Stripe payment
@@ -55,7 +56,7 @@ export default function Features2 () {
         ✅ Deployment with Coolify
         </li>
         <li>
-        ❎ Optimisation of the SEO
+        ✅ Optimisation of the SEO
         </li>
         </ul>
     </div>
