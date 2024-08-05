@@ -4,7 +4,7 @@ import Link from "next/link"
 function Footer() {
     return(
         <div>
-        <div className="bg-slate-50 flex justify-center">
+        <div className="bg-blue-300 text-slate-50 flex justify-center">
             <footer className="footer pt-10 pb-24 px-4 max-w-6xl  text-base-content">
         <div>
             <p className="font-bold text-2xl">Rapido SaaS<br/></p>

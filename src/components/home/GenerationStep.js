@@ -1,17 +1,17 @@
-import DocumentTextIcon  from '@heroicons/react/24/outline/DocumentTextIcon'
+import CodeBracketIcon  from '@heroicons/react/24/outline/CodeBracketIcon'
 import ArrowDownOnSquareIcon  from '@heroicons/react/24/outline/ArrowDownOnSquareIcon'
 import ArrowUpOnSquareIcon  from '@heroicons/react/24/outline/ArrowUpOnSquareIcon'
 
 const generationStepData = [
     {icon : <ArrowDownOnSquareIcon className='w-10 h-10 inline-block mr-2' />, description : "Clone"},
-    {icon : <DocumentTextIcon className='w-10 h-10 inline-block mr-2' />, description : "Code"},
+    {icon : <CodeBracketIcon className='w-10 h-10 inline-block mr-2' />, description : "Code"},
     {icon : <ArrowUpOnSquareIcon className='w-10 h-10 inline-block mr-2' />, description : "Ship"},
 ]
 
 function GenerationStep(){
     return(
         <>
-             <div className="grid place-items-center bg-slate-50 w-full ">
+            <div className="grid place-items-center bg-blue-300 w-full ">
             <div className="max-w-6xl w-full py-24 px-4 content-center justify-center">
                 <h2 className="text-3xl  text-center font-bold">Get your SaaS shipped in Simple Steps</h2>
                 <div className="grid mt-24 md:grid-cols-3 grid-cols-1 gap-8">
