@@ -8,7 +8,7 @@ function Design() {
             <div className="max-w-6xl w-full  md:px-12 px-4 text-left flex-col ">
                 <h2 className="text-2xl leading-10 font-bold">Get the boilerplate</h2>
                 <p className="my-24 text-xl">
-                    <Link href="https://github.com/nazimboudeffa/boilerplate-rapidosaas-nextjs-mongo-daisyui">https://github.com/nazimboudeffa/boilerplate-rapidosaas-nextjs-mongo-daisyui</Link>
+                    <Link href="https://github.com/rapidosaas">https://github.com/rapidosaas</Link>
                 </p>
                 <h2 className="text-2xl  leading-10 font-bold">Get the documentation</h2>
                 <p className="my-24 text-xl">
