@@ -9,6 +9,7 @@ import { setLoggedIn, setToken } from "@/store/userSlice";
 import { useEffect } from "react";
 import LeftSidebar from "./LeftSidebar";
 import NavProfileLinks from "./NavProfileLinks";
+import PlausibleProvider from "next-plausible";
 
 
 export default function Layout({ children }) {
@@ -54,6 +55,8 @@ export default function Layout({ children }) {
     <meta name="twitter:card" content="summary_large_image" />
     <meta property="twitter:domain" content="" />
     <meta itemProp="image" content="/cover-pic.png" />
+
+    <PlausibleProvider domain="rapidosaas.com" customDomain="https://plausible.codewithadu.de" />
 
 
     </Head>
